@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-transform-react-jsx": "^7.21.5",
+    "vite": "^4.3.9"
+  },
+  "name": "micro-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "babel": "babel index.js -o bundle.js",
+    "react:node": "node bundle.js",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sco-org/micro-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sco-org/micro-react/issues"
+  },
+  "homepage": "https://github.com/sco-org/micro-react#readme",
+  "description": ""
+}
